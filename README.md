@@ -76,12 +76,12 @@ This project implements a **Dynamic Multilevel Caching System** in Java, allowin
 - Evictions are handled based on the specified eviction policy (LRU or LFU).
 
 ## Project Structure
-  src/
+``` src/
   ├── CacheLevel.java      # Manages individual cache levels
   ├── CacheManager.java    # Manages all cache levels and operations
   └── Main.java            # Main class to run test cases
 .gitignore                 # Ignores unnecessary files (e.g., .idea/, compiled files)
 README.md                  # Project documentation (this file)
-
+```
 
 
